@@ -83,7 +83,7 @@ class Brain extends Thread implements SensorInput
 			if( object.m_direction != 0 )
 			    m_krislet.turn(object.m_direction);
 			else
-			    m_krislet.dash(100);//+Math.pow(2, object.m_distance));
+			    m_krislet.dash(10*object.m_distance);
 		    }
 		else 
 		    {
